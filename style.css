@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* background-color: brown; */
+    background-color: rgb(209, 205, 208);
+    /* width: 380px; */
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 18px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 29px 14px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.main {
+    /* background-color: beige; */
+   background-color: rgb(252, 251, 251);
+    width: 100vw;
+    /* height:100%; */
+}
+
+.info {
+    /* background-color: rgb(240, 108, 177); */
+    height: 77vh;
+    width: 80vw;
+    margin: 75px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: auto 115px;
+}
+
+.hello {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+.btn {
+    margin-top: 34px;
+}
+
+.btn button {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 0 3px;
+    font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    border: 2px solid rgb(16, 16, 16);
+}
+
+.btn button:hover {
+   background-color: rgb(252, 251, 251);
+    color: black;
+
+}
+
+.personpic img {
+    height: 77vh;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Unbounded', cursive;
+    margin: 0 88px;
+}
+
+.contactform h1 {
+    padding: 40px;
+    margin-left: 117px;
+}
+
+.formgroup label {
+    padding: 0 80px;
+    display: block;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-left: 80px;
+}
+
+.formgroup input {
+    margin-left: 80px;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    margin: 5px 158px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.formgroup input:hover{
+    border-color: rgb(133, 132, 132);
+}
+
+#formcheck {
+    display: flex;
+    flex-direction: row;
+}
+
+#formcheck label {
+    margin: 0 158px;
+    /* font-weight: bold; */
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#formcheck input {
+    width: 18px;
+    margin-left: -144px;
+}
+
+
+#form-message label {
+    padding: 0 80px;
+    display: block;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#form-message textarea {
+    outline: none;
+    margin: 5px 158px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#form-message textarea:hover{
+    border-color: rgb(133, 132, 132);
+}
+.btn1 {
+    width: 70px;
+    font-size: 13px;
+    /* font-weight: bold; */
+    margin: 0px 158px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px 6px;
+}
+
+.btn1:hover {
+    background-color: rgb(252, 251, 251);
+    font-weight: bold;
+    color: black;
+}
+.last{
+    margin-left: 158px;
+    margin-top: 7px;
+}
+
+.blogcontainer {
+    margin: 0 88px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.blogcontainer h1 {
+    margin: 34px 60px;
+    font-family: 'Unbounded', cursive;
+}
+
+.blog-item {
+    margin: 10px 60px;
+}
+
+.blog-item h2 {
+    font-family: 'Unbounded', cursive;
+}
+
+.blog-item p {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 5px;
+}
+
+.btn2 {
+    font-family: 'Unbounded', cursive;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px 6px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn2:hover {
+    background-color: rgb(206, 203, 203);
+    color: black;
+}
+
+.intro {
+    margin: 0 88px;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.intro h1 {
+    margin: 10px 100px;
+    font-family: 'Unbounded', cursive;
+    /* margin: 12px; */
+  margin-top: 68px;
+}
+
+.intro1 h1 {
+    margin: 34px 100px;
+    font-family: 'Unbounded', cursive;
+    /* margin: 12px; */
+}
+
+.intro p {
+    margin: 0px 100px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.skillcontainer {
+    padding: 0px;
+}
+
+.fix1{
+    margin-left: 40em;
+    margin-top: -89px;
+}
+
+.fix2{
+    margin-top: 45px;
+}
+
+.fix3{
+    margin-left: 40em;
+    margin-top: -89px;
+}
+.skill {
+    height: 6px;
+    width: 265px;
+    background-color: rgb(224, 185, 185);
+    margin-left: 100px;
+}
+
+.skill1 {
+    height: 6px;
+    width: 229px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill2 {
+    height: 6px;
+    width: 229px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill3 {
+    height: 6px;
+    width: 161px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill4 {
+    height: 6px;
+    width: 185px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill5 {
+    height: 6px;
+    width: 238px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill6 {
+    height: 6px;
+    width: 243px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+.skill7 {
+    height: 6px;
+    width: 227px;
+    background-color: rgb(48, 47, 47);  
+    /* margin-left: 100px; */
+}
+.skill8 {
+    height: 6px;
+    width: 100px;
+    background-color: rgb(48, 47, 47);
+    /* margin-left: 100px; */
+}
+
+
+.skillItem {
+    display: flex;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    align-items: center;
+    margin: 10px 100px;
+}
+
+.services h1 {
+    font-family: 'Unbounded', cursive;
+    margin: 20px 158px;
+    margin-top: 68px;
+}
+
+.services {
+    margin: 0 88px;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.work {
+    margin-top: 17px;
+}
+.work h2 {
+    margin: 5px 158px;
+    font-family: 'Unbounded', cursive;
+}
+
+.work p {
+    margin: 0px 158px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
+}
+
+.btn3 {
+    margin-bottom: 10px;
+
+}
+
+.btn3 button {
+    margin-left: 70px;
+    font-family: 'Unbounded', cursive;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0px 10px;
+    margin-top: 3px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.btn3 button:hover {
+    background-color: rgb(206, 203, 203);
+    color: black;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+    left: 7px;
+}
+
+.sidebarGo {
+    position: absolute;
+    transform: translate(-443px, 0px);
+}
+
+.hambgg {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.cross {
+    margin-left: 102px;
+    width: 35px;
+}
+
+@media(max-width:915px) {
+
+
+    .personpic {
+        display: none;
+    }
+}
